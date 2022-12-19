@@ -125,10 +125,29 @@ h1,h2,h3,h4,h5,h6 { line-height: 1; }
 }
 
 .slick-dots {
-  display: none !important;
+  /* display: none !important; */
+  position: absolute;
+  top: 600px;
+  right: 0;
+  float: right;
+  margin-right: 10%;
 }
 
 .slick-dots li {
+  float: left;
+}
+
+.slick-dots li button {
+  background-color: rgba(0,0,0,0.2);
+  border: 2px solid #fff;
+  color: #fff;
+  font-size: 22px;
+  font-weight: bold;
+  width: 35px;
+  height: 35px;
+  border-radius: 100%;
+  cursor: pointer;
+  margin-left: 10px;
 }
 
 
@@ -138,6 +157,7 @@ h1,h2,h3,h4,h5,h6 { line-height: 1; }
   text-shadow: 1px 1px 10px rgb(0,0,0,0.5);
   position: relative;
   padding-top: 60px;
+  cursor: pointer;
 }
 
 #mainbanner .banner .maintext {
@@ -256,7 +276,7 @@ h1,h2,h3,h4,h5,h6 { line-height: 1; }
   height: 300px;
   border-radius: 50%;
   overflow: hidden;
-  background-color: rgba(0,0,0,1.0);
+  /* background-color: rgba(0,0,0,1.0); */
   box-shadow: 1px 1px 10px;
   cursor: pointer;
 }
@@ -297,7 +317,8 @@ h1,h2,h3,h4,h5,h6 { line-height: 1; }
 }
 
 #container section .inner .careimg img {
-  padding: 40px;
+  margin: 40px;
+  box-shadow: 1px 1px 10px rgb(0 0 0 / 30%)
 
 }
 
@@ -341,12 +362,14 @@ h1,h2,h3,h4,h5,h6 { line-height: 1; }
 /* section 세번째 ----------------------------------------------------*/
 #container section:nth-child(3) .box.img {
   background: url('../img/asiana_section_3/bg.png');
+  box-shadow: 1px 1px 10px;
 }
 
 
 /* section 네번째 ----------------------------------------------------*/
 #container section:nth-child(4) .box.img {
   background-image: url('../img/asiana_section_4/bg.png');
+  box-shadow: 1px 1px 10px;
 }
 #container section:nth-child(4) .inner .box {
   text-align: left;
@@ -362,6 +385,7 @@ h1,h2,h3,h4,h5,h6 { line-height: 1; }
 /* section 다섯번째---------------------------------------------------- */
 #container section:nth-child(5) .box.img {
   background-image: url('../img/asiana_section_5/bg.png');
+  box-shadow: 1px 1px 10px;
 }
 
 /* section 여섯번째------------------------------------------- */
